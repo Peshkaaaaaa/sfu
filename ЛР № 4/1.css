@@ -1,0 +1,411 @@
+.okno, .okno1, .okno2, .okno3, .okno4, .okno5, .okno6, .okno7, .okno8, .okno9, .radius, .trap, .pryam5, .pryam6, .pryam7, .pryam8, .pryam9, .pryam10, .pryam, .pryam1, .pryam2, .pryam3, .pryam4, .pryam11, .pryam12,
+.krug1, .ring1, .krug2, .ring2, .krug3, .ring3, .krug4, .ring4, .krug5, .ring5, .krug6, .ring6, .krug7, .ring7, .krug8, .ring8 {
+    position: absolute;
+}
+
+.nebo{
+width: 100%;
+height: 100%;
+background: linear-gradient(to top, yellowgreen 50%, lightcyan 50%);
+}
+.okno {
+width: 70px;
+height: 60px;
+background: #95c8d8;
+top: 415px;
+right: 1582.5px;
+}
+.radius {
+  width: 2em;
+  height: 4.5em;
+  border: 2px solid red;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  background: purple;
+  top: 475px;
+  right: 1717.5px;
+}
+.trap {
+height: 0; 
+width: 20px;
+border-top: 50px solid red;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+top: 425px;
+right: 1692.5px;
+}
+.okno1 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 1332.5px;
+}
+.okno2 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 1392.5px;
+}
+.okno3 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 1452.5px;
+}
+.okno4 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 1082.5px;
+}
+.okno5 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 1142.5px;
+}
+.okno6 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 1202.5px;
+}
+.okno7 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 832.5px;
+}
+.okno8 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 892.5px;
+}
+.okno9 {
+width: 35px;
+height: 35px;
+background: #95c8d8;
+top: 435px;
+right: 952.5px;
+}
+.pryam{
+width: 100px;
+height: 150px;
+background: purple;
+top: 400px;
+right: 1567.5px;
+z-index: -1;
+}
+.pryam1{
+width: 50px;
+height: 75px;
+background: purple;
+top: 475px;
+right: 1667.5px;
+z-index: -1;
+}
+.pryam2{
+width: 40px;
+height: 10px;
+background: purple;
+top: 415px;
+right: 1692.5px;
+}
+.pryam4{
+width: 200px;
+height: 150px;
+background: green;
+top: 400px;
+right: 1312.5px;
+z-index: -1;
+}
+.pryam5{
+width: 200px;
+height: 20px;
+background: grey;
+top: 400px;
+right: 1312.5px;
+}
+.pryam6{
+width: 200px;
+height: 150px;
+background: red;
+top: 400px;
+right: 1062.5px;
+z-index: -1;
+}
+.pryam7{
+width: 200px;
+height: 20px;
+background: grey;
+top: 400px;
+right: 1062.5px;
+}
+.pryam8{
+width: 200px;
+height: 150px;
+background: yellow;
+top: 400px;
+right: 812.5px;
+z-index: -1;
+}
+.pryam9{
+width: 200px;
+height: 20px;
+background: grey;
+top: 400px;
+right: 812.5px;
+}
+.pryam10{
+width: 100px;
+height: 10px;
+background: grey;
+top: 500px;
+right: 1500.5px;
+z-index: -2;
+}
+.pryam11{
+width: 100px;
+height: 10px;
+background: grey;
+top: 500px;
+right: 1250.5px;
+z-index: -2;
+}
+.pryam12{
+width: 100px;
+height: 10px;
+background: grey;
+top: 500px;
+right: 1012.5px;
+z-index: -2;
+}
+.krug1 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 530px;
+    right: 1660px;
+
+}
+.krug2 {
+    width: 85px;
+    height: 85px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 510px;
+    right: 1565px;
+}
+.krug3 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 530px;
+    right: 1432px;
+}
+.ring1 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 510px;
+    right: 1640px;
+}
+.ring2 {
+    display: inline-block;
+    margin: 1em;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 490px;
+    right: 1545px;
+}
+.ring3 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 510px;
+    right: 1412px;
+}
+.krug4 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 530px;
+    right: 1332px;
+}
+.ring4 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 510px;
+    right: 1312px;
+}
+.krug5 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 530px;
+    right: 1182px;
+}
+.ring5 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 510px;
+    right: 1162px;
+}
+.krug6 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 530px;
+    right: 1082px;
+}
+.ring6 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 510px;
+    right: 1062px;
+}
+.krug7 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 530px;
+    right: 932px;
+}
+.ring7 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 510px;
+    right: 912px;
+}
+.krug8 {
+    width: 65px;
+    height: 65px;
+    background: #A9A9A9;
+    border-radius: 50%;
+    top: 530px;
+    right: 832px;
+}
+.ring8 {
+    display: inline-block;
+    margin: 1em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3em solid grey;
+    top: 510px;
+    right: 812px;
+}
+.krug9, .krug10, .krug11 {
+    position: absolute;
+}
+.krug9 {
+    width: 150px;
+    height: 150px;
+    background: lightcyan;
+    border-radius: 50%;
+    top: 400px;
+    right: 1300px;
+    border: 2px solid aqua;
+    animation-name: h2;
+    animation-duration: 2s;
+}
+.krug10 {
+    width: 150px;
+    height: 150px;
+    background: lightcyan;
+    border-radius: 50%;
+    top: 400px;
+    right: 900px;
+    border: 2px solid aqua;
+    animation-name: o2;
+    animation-duration: 2s;
+}
+.krug11 {
+    width: 150px;
+    height: 150px;
+    background: lightcyan;
+    border-radius: 50%;
+    top: 400px;
+    right: 500px;
+    border: 2px solid aqua;
+    animation-name: h2o;
+    animation-duration: 2s;
+}
+.text{
+color: aqua;
+text-align: center;
+line-height: 150px;
+}
+@-webkit-keyframes o2{
+    0%{
+        left:780px;
+    }
+
+    100%{
+        left: 630px;
+    }
+}
+
+@-webkit-keyframes h2o{
+0% {
+opacity: 0;
+transform: translateX(-100%);
+}
+100% {
+opacity: 1;
+transform: translateX(0);
+}
+}
+@-webkit-keyframes h2{
+0%{
+left:480px;
+}
+100%{
+left:630px;
+}
