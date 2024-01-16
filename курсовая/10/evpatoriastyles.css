@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(back3.jpg);
+    background-attachment: fixed;
+    color: #000000; /* ������ ���� ������ */
+    margin: 0 auto;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: #525252;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.saunacontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text {
+    margin-left: 30px;
+}
+
+.sauna {
+    width: 45%; 
+    margin: 10px;
+    background-color: #dfdfdfdf;
+    border-radius: 30px;
+    text-align: left;
+    max-height: 100%;
+}
+
+    .sauna img {
+        width: 100%;
+        border-radius: 30px;
+        height: 60%;
+    }
+
+    .sauna h3 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .sauna p {
+        line-height: 1.6;
+    }
+
+    .sauna a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+    a:hover {
+        text-shadow:  0 3px 10px rgba(0, 0, 0, 0.3);
+        transition: 0.2s linear;
+    }
+
+
+.contacts {
+    margin-top: 70px;
+    width: 95%;
+    background-color: #525252;
+    color: #fff;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.contact-block {
+    display: inline-block;
+    width: 20%;
+    margin-right: 50px;
+}
+.contact-block:last-child {
+    margin-right: 0;
+}
+
+.phone {
+    margin: 30px 50px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.dopbutton {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.doph1 {
+    text-align: center;
+}
+
+.but {
+    text-align: right;
+    margin: 30px 50px;
+}
